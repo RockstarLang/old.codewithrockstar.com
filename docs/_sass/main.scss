@@ -276,7 +276,7 @@ div#interpreter {
       background-repeat: no-repeat;
       background-image: url(/assets/images/ajax-loader.gif);
     }
-    &#program-input { 
+    &#program-input {
       height: 60px;
     }
 
@@ -295,4 +295,12 @@ input[type="button"] {
     color: #ccc;
     background-color: #333;
   }
+}
+
+
+div#old-site-banner {
+	background-color: #cc0000;
+	color: #fff;
+	text-align: center;
+	padding: 16px;
 }
