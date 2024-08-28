@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: "lts/*"
 
-      - name: Update and checkout rockstar submodule
-        run: git submodule update --init --remote docs/rockstar
+    #   - name: Update and checkout rockstar submodule
+    #     run: git submodule update --init --remote docs/rockstar
 
       - name: Browserify rockstar/satriani
         working-directory: docs/rockstar/satriani
