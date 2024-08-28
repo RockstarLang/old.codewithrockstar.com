@@ -1,0 +1,6 @@
+._*
+_site
+docs/\.sass_cache/*
+docs/\.jekyll-cache/*
+*.scssc
+.DS_Store

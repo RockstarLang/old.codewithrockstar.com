@@ -1,0 +1,27 @@
+---
+layout: default
+title: try it
+---
+<p>Type your Rockstar program here, or try these examples: <a
+        href="online?source=/rockstar/examples/fizzbuzz.rock">fizzbuzz</a>
+    &bull; <a href="online?source=/rockstar/examples/99_beers.rock">99 bottles of beer</a></p>
+<div id="interpreter">
+    <textarea id="program-source">Rockstar is a big bad monster
+Shout Rockstar
+</textarea>
+
+    <p>Input:</p>
+    <div id="program-input-wrapper">
+        <textarea id="program-input"></textarea>
+    </div>
+    <input type="button" value="Rock!" id="rock-button" onclick="rock();" />
+    <p>Output: <a id="cancel-execution" href="#">cancel</a></p>
+    <textarea id="program-output"></textarea> </div>
+</div>
+<p>Online Rockstar interpreter powered by <a
+        href="https://github.com/RockstarLang/rockstar/tree/master/satriani">Satriani</a>.</p>
+
+
+
+<script type="text/javascript" src="js/satriani.js"></script>
+<script type="text/javascript" src="js/rockstar.js"></script>
